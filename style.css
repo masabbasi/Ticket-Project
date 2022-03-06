@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/sky.jpg);
+
+}
+
+.main {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(64 53 53 / 52%);
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+form {
+    padding: 12% 18%
+}
+
+input {
+    margin: 10px 10px;
+}
+
+select {
+    display: block;
+    margin: 20px 150px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #748194;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #748194;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #748194;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #748194;
+}
+
+.firstname,
+.lastname,
+.mobile,
+.email,
+.countries,
+.cities,
+.buykey {
+    font-weight: bold;
+    width: 200px;
+    margin: 10px 0px;
+    height: 35px;
+    padding: 6px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #F6F7F9;
+    color: #748194;
+    font-size: 14px;
+}
+
+.buykey {
+    background: blue;
+}
+
+.buykey:hover {
+    color: white;
+    background: green;
+    transition: cubic-bezier(1, 0, 0, 1)
+}
